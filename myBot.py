@@ -3,7 +3,7 @@
 
 #import telebot
 
-#bot = telebot.TeleBot("1721318464:AAHEZkKBYr_rCbimh2m12Fucb2LgXQsacp0",)
+#bot = telebot.TeleBot("xxx",)
 
 #@bot.message_handler(content_types=['text'])
 ## функция def send_echo будет вызываться всегда, когда в телеге будет набран
@@ -23,7 +23,7 @@ import telebot
 
 owm = OWM('6c5f43af9fa85cb25be96649e9249bed')
 mgr = owm.weather_manager()
-bot = telebot.TeleBot("1721318464:AAHEZkKBYr_rCbimh2m12Fucb2LgXQsacp0",)
+bot = telebot.TeleBot("xxx",)
 
 
 
